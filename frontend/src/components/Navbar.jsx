@@ -1,6 +1,6 @@
 import { Button, Container, Flex, HStack, Text } from '@chakra-ui/react'
 import React from 'react'
-import { PlusSquareIcon } from '@chakra-ui/icons'
+import { IoIosAddCircle } from "react-icons/io";
 import { Link } from 'react-router-dom'
 
 function Navbar() {
@@ -29,7 +29,7 @@ function Navbar() {
       <HStack spacing={2} alignItems={"center"}>
         <Link to={"/create"}>
           <Button>
-            <PlusSquareIcon fontSize={"20"} />
+            <IoIosAddCircle  fontSize={"20"} />
           </Button>
         </Link>
       </HStack>
