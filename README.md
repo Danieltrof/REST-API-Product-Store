@@ -51,7 +51,11 @@ Example operations tested:
 
 A Postman collection is included in the postman/ folder for quick import and testing.
 
+## Frontend
+
+The frontend is built using React, Javascript, Chakra UI, and Vite.
+
 ## Future Steps
-- Implement frontend in the `frontend/` folder
+- Continue expanding the project, both frontend and backend
 - Add authentication and authorization
-- Expand product features
+- Expand other product features
